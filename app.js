@@ -6,7 +6,7 @@ const app = express();
 // Configuración de la sesión
 app.use(
   session({
-    secret: 'p3-JAM#Pionero-sesionespersistentes', // Secreto para firmar la cookie de sesión
+    secret: 'p3-AAQ#carnitaAsada-sesionespersistentes', // Secreto para firmar la cookie de sesión
     resave: false,              // No resguarda la sesión si no ha sido modificada
     saveUninitialized: false,   // No guarda sesiones no inicializadas
     cookie: { maxAge: 24 * 60 * 60 * 1000 }, // 24 horas  // Usar secure: true solo si usas HTTPS, maxAge permite definir la duración máxima de la sesión.
